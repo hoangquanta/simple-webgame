@@ -1,0 +1,121 @@
+#main{
+  position: absolute;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+}
+body {
+  background-color: #010165;
+  margin: 0px;
+}
+header{
+  background-color: aqua;
+  width: 100%;
+  text-align: center;
+}
+.container{
+  width: 55%;
+  margin: 0 auto;
+}
+
+
+
+
+.instruction *{
+  border: 1px solid white;
+}
+.instruction .title{
+  color: rgb(0, 200, 255);
+  text-align: center;
+  font-family: 'Work Sans';
+  margin: 30px;
+}
+.instruction-row{
+  display: grid;
+  grid-template-columns: 18% 82%;
+  margin-bottom: auto;
+  align-items: center;
+}
+.instruction .instruction-number{
+  color: aqua;
+  font-family: 'Work Sans';
+  font-size: 35px;
+  padding-left: 40%;
+}
+.instruction p{
+  color: white;
+  font-family: 'Work Sans';
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+
+.the-doors{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.the-doors div{
+  border: 1px solid white !important;
+  margin: 0 20px;
+}
+
+
+
+.replay #button{
+  background-color: tomato;
+  display: flex;
+  width: 150px;
+  height: 50px;
+  margin: 20px auto;
+  align-items: center;
+  justify-content: center;
+}
+#button #replay-text{
+  padding: 5px;
+  color: black;
+  font-family: 'Work Sans';
+  font-size: 13px;
+  text-align: center;
+  border: 1px solid white;
+}
+.replay #button :hover{
+  cursor: pointer;
+}
+
+
+
+.streak{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: 1px solid green;
+}
+.streak .col{
+  width: 30%;
+  border: 1px solid white;
+}
+.streak .col.c1{
+  margin: 0 0 0 auto; /*make the column-1 right-align*/
+}
+.streak p{
+  margin: 15px auto;
+  text-align: center;
+  color: white;
+  font-family: 'work sans';
+  font-size: 15px;
+
+}
+.streak-point{
+  height: 60px;
+  width: 60px;
+  background-color: aqua;
+  font-size: 40px;
+  font-family: 'work sans';
+  margin: 0 auto;
+  text-align: center;
+  line-height: 60px;
+}
+body *{
+  border: none !important;
+}

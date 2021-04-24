@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chore Door!</title>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <!-- Logo -->
+    <header>
+      <img src="images/logo.svg" alt="">
+    </header>
+
+    <div class="container">
+      <!-- Instructions-->
+      <section class="instruction">
+        <div class="title">
+          <img src="images/star.svg" alt="">
+          <span id="title">Instructions</span> 
+          <img src="images/star.svg" alt="">
+        </div>
+        
+
+        <div class="instruction-row">
+          <div class="haha"><div class="instruction-number">1</div></div>
+          <div>
+            <p>Hiding behind one of these doors is the ChoreBot.</p>
+          </div>
+        </div>
+        <div class="instruction-row">
+          <div><div class="instruction-number">2</div></div>
+          <div>
+            <p>Your mission is to open all of the doors without running into the ChoreBot.</p>
+          </div>
+        </div>
+        <div class="instruction-row">
+          <div><div class="instruction-number">3</div></div>
+          <div>
+            <p>If you manage to avoid the ChoreBot until the very last door, you win!</p>
+          </div>
+        </div>
+        <div class="instruction-row">
+          <div><div class="instruction-number">4</div></div>
+          <div>
+            <p>See if you can score a winning streak!</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- The 3 doors -->
+      <section class="the-doors">
+        <div><img src="" alt="" id="1st-door"></div>
+        <div><img src="" alt="" id="2nd-door"></div>
+        <div><img src="" alt="" id="3rd-door"></div>
+      </section>
+
+      <section class="replay">
+        <div id="button">
+          <p id="replay-text">
+            Hmm, let's see
+          </p>
+        </div>
+      </section>
+
+      <section class="streak">
+        <div class="col c1">
+          <div><p>Current streak:</p></div>
+          <div class="streak-point" id="current">0</div>
+        </div>
+        <div class="col c2">
+          <div><p>Best streak:</p></div>
+          <div class="streak-point" id="best">0</div>
+        </div>
+      </section>
+
+    </div> <!-- body container-->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
